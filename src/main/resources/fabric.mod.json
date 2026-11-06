@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "deadmanshand",
+  "version": "${version}",
+  "name": "Dead Man's Hand",
+  "description": "One night the sky fills with fireworks, and you wake up in your own world with everyone gone. Your visa says how many days you have left. The only way to get more is to win the games: deadly games that open at night, each marked by a playing card. The suit tells you what kind of game it is, the number how hard. Run out of time and a laser falls from the sky.",
+  "authors": [
+    "YourName"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.deadmanshand.DeadMansHand"
+    ],
+    "client": [
+      "com.deadmanshand.client.DmhClient"
+    ]
+  },
+  "mixins": [
+    "deadmanshand.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.19.2"
+  }
+}
